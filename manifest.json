@@ -10,7 +10,7 @@
     "content_scripts": [
         {
             "matches": [
-                "https://austinwiley.github.io/Austin-Portfolio/", "https://secure.logmein.com/central.aspx"
+				"https://secure.logmein.com/central/Central.aspx", "https://austinwiley.github.io/Austin-Portfolio/"
             ],
             "js": ["app.js"]
         }

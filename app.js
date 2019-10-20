@@ -1,22 +1,6 @@
 //app.js
-// alert("Hello this will keep you logged into LMI. . . . .eventually");
-// setInterval(function () {
-//     alert("Hello");
-// }, 3000);
-
-// window.onload = function () {
-//     document.getElementById("linkid").click();
-// };
-
-// document.getElementById("linkid").click();
-
-//   window.onload=function(){
-//     setInterval(function(){ alert("Hello"); }, 3000);
-//   };
-
-window.onload = function () {
+console.log("Stay==========Logged=============In==============Starting====================now")
     setInterval(function () {
-        document.getElementById("navbarNav").click();
+        document.getElementById("header").click();
         console.log("Click")
     }, 3000);
-};
